@@ -21,44 +21,44 @@ const app = {
         {
             name: 'Chúng ta của hiện tại',
             singer: 'Sơn Tùng Mtp',
-            path: '/music_play/assets/music/ChungTaCuaHienTai-SonTungMTP-6892340.mp3',
-            image: '/music_play/assets/img/chung_ta_cua_hien_tai_mtp.jpg'
+            path: './assets/music/ChungTaCuaHienTai-SonTungMTP-6892340.mp3',
+            image: './assets/img/chung_ta_cua_hien_tai_mtp.jpg'
         },
         {
             name: 'Em Xinh',
             singer: 'Mono',
-            path: '/music_play/assets/music/EmXinh-MONOOnionn-12581640.mp3',
-            image:'/music_play/assets/img/EmXinh-Mono.jpg'
+            path: './assets/music/EmXinh-MONOOnionn-12581640.mp3',
+            image:'./assets/img/EmXinh-Mono.jpg'
         },
         {
             name: 'Hư Không',
             singer: 'Kha',
-            path: '/music_play/assets/music/HuKhong-Kha-12792565.mp3',
-            image:'/music_play/assets/img/HuKhong-Kha.jpg'
+            path: './assets/music/HuKhong-Kha-12792565.mp3',
+            image:'./assets/img/HuKhong-Kha.jpg'
         },
         {
             name: 'Get Some More',
             singer: 'Sol7',
-            path: '/music_play/assets/music/GetSomeMore-Sol7-7751761.mp3',
-            image:'/music_play/assets/img/GetSomeMore-Sol7.jpg'
+            path: './assets/music/GetSomeMore-Sol7-7751761.mp3',
+            image:'./assets/img/GetSomeMore-Sol7.jpg'
         },
         {
             name: 'Phóng Zin Zin',
             singer: 'Tlinh ft. LowG',
-            path: '/music_play/assets/music/PhongZinZin-tlinhLowG.mp3',
-            image:'/music_play/assets/img/PhongZinZin-tlinhLowG.jpg'
+            path: './assets/music/PhongZinZin-tlinhLowG.mp3',
+            image:'./assets/img/PhongZinZin-tlinhLowG.jpg'
         },
         {
             name: 'NOLOVENOLIFE',
             singer: 'HIEUTHUHAI',
-            path: '/music_play/assets/music/NOLOVENOLIFE-HIEUTHUHAI-11966374.mp3',
-            image:'/music_play/assets/img/NOLOVENOLIFE-HIEUTHUHAi.jpg'
+            path: './assets/music/NOLOVENOLIFE-HIEUTHUHAI-11966374.mp3',
+            image:'./assets/img/NOLOVENOLIFE-HIEUTHUHAi.jpg'
         },
         {
             name: 'Thuỷ Triều',
             singer: 'Quang Hùng MasterD',
-            path: '/music_play/assets/music/ThuyTrieu-QuangHung.mp3',
-            image:'/music_play/assets/img/ThuyTrieu-QuangHung.jpg'
+            path: './assets/music/ThuyTrieu-QuangHung.mp3',
+            image:'./assets/img/ThuyTrieu-QuangHung.jpg'
         }
     ],
     currentIndex: 0,
