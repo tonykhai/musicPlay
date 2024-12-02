@@ -84,9 +84,7 @@ const app = {
                     <h3 class="title">${song.name}</h3>
                     <p class="author">${song.singer}</p>
                 </div>
-                <div class="option">
-                    <i class="fas fa-ellipsis-h"></i>
-                </div>
+
             </div>
             `
 
@@ -249,14 +247,13 @@ const app = {
         //click bài hát bất kỳ và play
         playList.onclick = function(e){
             const songNode = e.target.closest('.song:not(.active)')
-            if(songNode || e.target.closest('.option')){
                 if(songNode){
                     app.currentIndex = Number(songNode.dataset.index)
                     app.loadCurentSong()
                     app.render()
                     audio.play()
                 }
-            }
+            
         }
     },
 
